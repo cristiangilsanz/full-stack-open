@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import { anecdotes } from './anecdotes';
+import { useState } from 'react';
+
+import { anecdotes } from './assets/anecdotes';
 
 const App = () => {
   const [selected, setSelected] = useState(0)
@@ -41,4 +42,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App;
