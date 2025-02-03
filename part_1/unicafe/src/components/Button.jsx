@@ -1,4 +1,4 @@
-const Button = ({setFeedback, feedbackAttribute, text}) => {
+const Button = ({ setFeedback, feedbackAttribute, text }) => {
     const increaseFeedbackCount = (setFeedback, feedbackAttribute) => () => {
       setFeedback(feedbackAttribute + 1)
     }

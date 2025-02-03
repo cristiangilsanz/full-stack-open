@@ -1,6 +1,6 @@
 import StatisticLine from "./StatisticLine";
 
-const Statistics = ({good, neutral, bad}) => { 
+const Statistics = ({ good, neutral, bad }) => { 
     const totalFeedbackSent = good + neutral + bad
     const averageScore = totalFeedbackSent ? ((good - bad) / totalFeedbackSent).toFixed(2) : 0
     const goodFeedbackRate = totalFeedbackSent ? ((good / totalFeedbackSent) * 100).toFixed(2) : 0
