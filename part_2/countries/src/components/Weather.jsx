@@ -1,15 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
-import getWeather from "../services/weather";
+import getWeather from "../services/weather"
 
 const Weather = ({ capital, lat, lon }) => {
-  const [weather, setWeather] = useState(null);
+  const [weather, setWeather] = useState(null)
 
   useEffect(() => {
     getWeather(lat, lon).then((weather) => {
-      setWeather(weather);
-    });
-  }, [lat, lon]);
+      setWeather(weather)
+    })
+  }, [lat, lon])
 
   return (
     <>
@@ -27,7 +27,7 @@ const Weather = ({ capital, lat, lon }) => {
         </>
       )}
     </>
-  );
-};
+  )
+}
 
-export default Weather;
+export default Weather

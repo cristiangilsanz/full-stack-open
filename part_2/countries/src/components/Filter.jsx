@@ -4,7 +4,7 @@ const Filter = ({ filter, handleFilterChange }) => {
         find countries
         <input id="filter" value={filter} onChange={handleFilterChange} />
       </div>
-    );
-  };
+    )
+}
 
 export default Filter

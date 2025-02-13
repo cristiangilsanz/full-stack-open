@@ -1,6 +1,6 @@
-import Header from "./Header";
-import Content from "./Content";
-import Total from "./Total";
+import Header from "./Header"
+import Content from "./Content"
+import Total from "./Total"
 
 const Course = ({ course }) => {
     return (
@@ -12,4 +12,4 @@ const Course = ({ course }) => {
     )
 }
 
-export default Course;
+export default Course

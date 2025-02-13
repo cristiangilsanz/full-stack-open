@@ -6,7 +6,7 @@ const Countries = ({ filteredCountries, onSelectCountry }) => {
         <button onClick={() => onSelectCountry(country)}>show</button>
       </p>
     </div>
-  )); 
-};
+  ))
+}
 
 export default Countries
