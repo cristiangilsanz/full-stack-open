@@ -1,6 +1,6 @@
-import courses from "./assets/courses.json";
+import courses from "./assets/courses.json"
 
-import Course from "./components/Course";
+import Course from "./components/Course"
 
 const App = () => {
   
@@ -15,4 +15,4 @@ const App = () => {
 
 }
 
-export default App;
+export default App

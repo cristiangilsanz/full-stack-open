@@ -1,14 +1,14 @@
-import axios from "axios";
+import axios from "axios"
 
-const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+const WEATHER_API_KEY = import.meta.env.WEATHER_API_KEY
 
-const baseUrl = `https://api.openweathermap.org/data/2.5/weather`;
+const baseUrl = `https://api.openweathermap.org/data/2.5/weather`
 
 const getWeather = (lat, lon) => {
   const request = axios.get(
-    `${baseUrl}?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
-  );
-  return request.then((response) => response.data);
-};
+    `${baseUrl}?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
+  )
+  return request.then((response) => response.data)
+}
 
-export default getWeather;
+export default getWeather

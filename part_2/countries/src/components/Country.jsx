@@ -1,4 +1,4 @@
-import Weather from "./Weather";
+import Weather from "./Weather"
 
 const Country = ({ selectedCountry }) => {
   
@@ -9,7 +9,7 @@ const Country = ({ selectedCountry }) => {
     languages = {},
     flags: { png, alt } = { png: "unknown", alt: "Flag" },
     capitalInfo: { latlng: [lat = null, lon = null] = [null, null] } = {},
-  } = selectedCountry || {};
+  } = selectedCountry || {}
 
   return (
     <div>
@@ -32,7 +32,7 @@ const Country = ({ selectedCountry }) => {
         <p>No weather data available</p>
       )}
     </div>
-  );
-};
+  )
+}
 
 export default Country
