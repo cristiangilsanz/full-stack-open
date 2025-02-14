@@ -1,8 +1,8 @@
-import course from "./assets/course.json";
+import course from "./assets/course.json"
 
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Total from "./components/Total";
+import Header from "./components/Header"
+import Content from "./components/Content"
+import Total from "./components/Total"
 
 const App = () => {
   return (
@@ -14,4 +14,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

@@ -8,4 +8,4 @@ const Button = ({ setFeedback, feedbackAttribute, text }) => {
     )
 }
 
-export default Button;
+export default Button

@@ -1,19 +1,19 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
-import { anecdotes } from './assets/anecdotes';
+import { anecdotes } from './assets/anecdotes'
 
 const App = () => {
   const [selected, setSelected] = useState(0)
 
   const chooseNextAnecdote = () => {
-    let newSelected;
+    let newSelected
     do {
-      newSelected = Math.floor(Math.random() * anecdotes.length);
-    } while (newSelected === selected);
-    setSelected(newSelected);
-  };
+      newSelected = Math.floor(Math.random() * anecdotes.length)
+    } while (newSelected === selected)
+    setSelected(newSelected)
+  }
 
-  const [votes, setVotes] = useState(Array(anecdotes.length).fill(0));
+  const [votes, setVotes] = useState(Array(anecdotes.length).fill(0))
 
   const submitVote = () => {
     const newVotes = [...votes]
@@ -42,4 +42,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default App

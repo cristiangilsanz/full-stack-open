@@ -1,4 +1,4 @@
-import StatisticLine from "./StatisticLine";
+import StatisticLine from "./StatisticLine"
 
 const Statistics = ({ good, neutral, bad }) => { 
     const totalFeedbackSent = good + neutral + bad
@@ -23,7 +23,7 @@ const Statistics = ({ good, neutral, bad }) => {
           <p>No feedback given</p>
         )}
       </section>
-    );
+    )
 }
 
-export default Statistics;
+export default Statistics
