@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
-import Button from './components/Button';
-import Statistics from './components/Statistics';
+import Button from './components/Button'
+import Statistics from './components/Statistics'
 
 const App = () => {
   const [good, setGood] = useState(0)
@@ -23,4 +23,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

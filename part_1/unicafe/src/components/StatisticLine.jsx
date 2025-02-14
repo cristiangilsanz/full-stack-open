@@ -7,4 +7,4 @@ const StatisticLine = ({ text, value }) => {
       );
 }
 
-export default StatisticLine;
+export default StatisticLine
